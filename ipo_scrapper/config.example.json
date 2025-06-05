@@ -1,0 +1,10 @@
+{
+  "username": "dythia@interopera.co",
+  "password": "!Pt@20251!.",
+  "description": "IPO scraping and analysis",
+  "agent_id": 1,
+  "target_sites": ["38.co.kr", "ipostock.co.kr"],
+  "company_limit": 20,
+  "check_interval": 10,
+  "user_email": "dythia@interopera.com"
+}

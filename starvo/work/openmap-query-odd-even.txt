@@ -1,0 +1,34 @@
+[out:json][timeout:90];
+(
+  way["highway"~"primary|secondary"]["name"~"[Pp]intu [Bb]esar [Ss]elatan"](-6.25,106.77,-6.12,106.88);
+  way["highway"~"primary|secondary"]["name"~"[Gg]ajah [Mm]ada"](-6.25,106.77,-6.14,106.88);
+  way["highway"~"primary|secondary"]["name"~"[Hh]ayam [Ww]uruk"](-6.25,106.77,-6.14,106.88);
+  way["highway"~"primary|secondary"]["name"~"[Mm]ajapahit"](-6.24,106.78,-6.15,106.87);
+  way["highway"~"primary|secondary"]["name"~"[Mm]edan [Mm]erdeka [Bb]arat"](-6.24,106.78,-6.15,106.87);
+  way["highway"~"primary|secondary"]["name"~"[Tt]hamrin"](-6.23,106.79,-6.16,106.86);
+  way["highway"~"primary|secondary"]["name"~"[Ss]udirman"](-6.23,106.79,-6.16,106.86);
+  
+  way["highway"~"primary|secondary"]["name"~"[Ss]isingamangaraja"](-6.30,106.77,-6.12,106.88);
+  way["highway"~"primary|secondary"]["name"~"[Pp]anglima [Pp]olim"](-6.30,106.77,-6.12,106.88);
+  way["highway"~"primary|secondary"]["name"~"[Ff]atmawati"](-6.30,106.77,-6.12,106.88);
+  
+  way["highway"~"primary|secondary"]["name"~"[Ss]uryopranoto"](-6.24,106.76,-6.15,106.86);
+  way["highway"~"primary|secondary"]["name"~"[Bb]alikpapan"](-6.24,106.76,-6.15,106.86);
+  way["highway"~"primary|secondary"]["name"~"[Kk]yai [Cc]aringin"](-6.24,106.76,-6.15,106.86);
+  way["highway"~"primary|secondary"]["name"~"[Tt]omang [Rr]aya"](-6.24,106.76,-6.15,106.86);
+  
+way["highway"~"primary|secondary|trunk"]["name"~"[Ll]etnan [Jj]enderal [Ss]iswondo [Pp]arman"](-6.26,106.76,-6.15,106.86); 
+  way["highway"~"primary|secondary|trunk"]["name"~"[Gg]atot [Ss]ubroto"](-6.26,106.76,-6.15,106.89);
+  way["highway"~"primary|secondary|trunk"]["name"~"[Mm][Tt] [Hh]aryono"](-6.26,106.76,-6.15,106.91);
+  way["highway"~"primary|secondary|trunk"]["name"~"[Hh].[Rr]. [Rr]asuna [Ss]aid"](-6.26,106.76,-6.14,106.91);
+  way["highway"~"primary|secondary|trunk"]["name"~"[Pp]anjaitan"](-6.26,106.76,-6.12,106.91);
+  way["highway"~"primary|secondary|trunk"]["name"~"[Jj]enderal [Aa]hmad [Yy]ani"](-6.26,106.80,-6.09,106.90);
+  way["highway"~"primary|secondary|trunk"]["name"~"[Aa]hmad [Yy]ani"](-6.26,106.80,-6.09,106.90);
+  way["highway"~"primary|secondary|trunk"]["name"~"[Pp]ramuka"](-6.26,106.78,-6.09,106.90);
+  way["highway"~"primary|secondary"]["name"~"[Ss]alemba [Rr]aya"](-6.26,106.78,-6.06,106.90);
+  way["highway"~"primary|secondary"]["name"~"[Kk]ramat [Rr]aya"](-6.26,106.78,-6.06,106.90);
+  way["highway"~"primary|secondary|trunk"]["name"~"[Pp]asar [Ss]enen"](-6.26,106.78,-6.06,106.90);
+  way["highway"~"primary|secondary"]["name"~"[Gg]unung [Ss]ahari"](-6.26,106.78,-6.06,106.90);
+
+);
+out geom;

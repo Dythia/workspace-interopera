@@ -1,0 +1,30 @@
+[out:json][timeout:90];
+(
+  // Offices
+  node["office"](-6.23,106.79,-6.16,106.86);
+  way["office"](-6.23,106.79,-6.16,106.86);
+  relation["office"](-6.23,106.79,-6.16,106.86);
+  // Parking spaces
+  node["amenity"="parking"](-6.23,106.79,-6.16,106.86);
+  way["amenity"="parking"](-6.23,106.79,-6.16,106.86);
+  relation["amenity"="parking"](-6.23,106.79,-6.16,106.86);
+  // Public transport/transit (bus stations and railway stations)
+  node["amenity"="bus_station"](-6.23,106.79,-6.16,106.86);
+  way["amenity"="bus_station"](-6.23,106.79,-6.16,106.86);
+  relation["amenity"="bus_station"](-6.23,106.79,-6.16,106.86);
+  node["railway"="station"](-6.23,106.79,-6.16,106.86);
+  way["railway"="station"](-6.23,106.79,-6.16,106.86);
+  relation["railway"="station"](-6.23,106.79,-6.16,106.86);
+  // EV charging stations
+  node["amenity"="charging_station"](-6.23,106.79,-6.16,106.86);
+  way["amenity"="charging_station"](-6.23,106.79,-6.16,106.86);
+  relation["amenity"="charging_station"](-6.23,106.79,-6.16,106.86);
+  // Malls
+  node["shop"="mall"](-6.23,106.79,-6.16,106.86);
+  way["shop"="mall"](-6.23,106.79,-6.16,106.86);
+  relation["shop"="mall"](-6.23,106.79,-6.16,106.86);
+  // Commercial buildings
+  way["building"="commercial"](-6.23,106.79,-6.16,106.86);
+  relation["building"="commercial"](-6.23,106.79,-6.16,106.86);
+);
+out geom;
