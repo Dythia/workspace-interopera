@@ -17,7 +17,7 @@
     -L 8000:localhost:8000 \
     -L 3000:localhost:3000 \
     -L 6379:localhost:6379 \
-    -L 8386:localhost:8384 \
+    -L 8385:localhost:8384 \
     net.rgs.dev05
 ```
 
